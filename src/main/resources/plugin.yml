@@ -1,0 +1,20 @@
+name: "${project.artifactId}"
+main: "${project.groupId}.${project.artifactId}"
+version: "${project.version}"
+description: "${project.artifactId} Bukkit Plugin"
+author: "BillyGalbreath"
+api-version: "1.13"
+
+commands:
+  fangs:
+    description: Reload plugin
+    usage: /<command> (reload)
+    permission: command.fangs
+
+permissions:
+  command.fangs:
+    description: Allows to reload configs
+    default: op
+  fangs.summon:
+    description: Allows to summon fangs
+    default: op

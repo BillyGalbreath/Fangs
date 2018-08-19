@@ -1,0 +1,5 @@
+command-no-permission: "&4You do not have permission for this command!"
+
+death-by-summons: "&e{player} killed by {attacker} with fangs"
+death-by-plant: "&e{player} killed by carnivorous plants"
+death-by-arrow: "&e{player} killed by {attacker} with fangs bow"

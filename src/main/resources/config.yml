@@ -1,0 +1,24 @@
+# Language file (for translations)
+language-file: lang-en.yml
+
+# Settings for summoning a line of fangs (like the Evoker does)
+summon:
+    # Enable fang summoning
+    enabled: true
+    # Require player to hold shift to summon fangs (not required if by command)
+    require-sneak-shift: true
+    # Time (in ticks) after a successful fang summon that a player cannot summon fangs again
+    cooldown: 20
+    # Item in hand to summon on right click
+    tool: IRON_NUGGET
+
+# Settings for shooting fangs with a bow and arrow
+shoot:
+    enabled: true
+
+# Settings for carnivorous fang plant
+plant:
+    # Enable fang plants
+    enabled: true
+    # The base block under the leaves (default polished granite)
+    base-type: POLISHED_GRANITE
